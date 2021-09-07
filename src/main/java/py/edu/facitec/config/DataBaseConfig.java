@@ -13,8 +13,8 @@ public class DataBaseConfig {
 		DataSourceBuilder<?> dataSourceBuilder = DataSourceBuilder.create();
 		dataSourceBuilder.url(
 				"jdbc:mysql://localhost:3307/practica_bd?useSSL=false&useUnicode=true&serverTimezone=America/Asuncion");
-		dataSourceBuilder.username("root");
-		dataSourceBuilder.password("84125497");
+		dataSourceBuilder.username("usuario");
+		dataSourceBuilder.password("senha");
 		return dataSourceBuilder.build();
 
 	}
